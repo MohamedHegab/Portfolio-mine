@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html {
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+  padding: 0 200px 0 280px;
+  width: 100%;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.right{
+  float: right;
+}
+
+.home h2 {
+  color: white;
+}
+
+.main h2 {
+  text-align:right;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.main .container {
+  margin: 80px 0px;
+}
+
+.highlight {
+  background-color: rgb(200,200,200);
+  color: black;
+  padding: 0px 10px;
+}
+
+.jumbotron {
+  background-image: url(http://2fm9xz2drvqemrbu.zippykid.netdna-cdn.com/wp-content/uploads/2012/11/facebook-cover-photo-8.jpg);
+  background-repeat: repeat;
+  background-color: transparent;
+  background-attachment: scroll;
+  background-position: center center;
+  background-origin: padding-box;
+  background-size: cover;
+  background-clip: border-box;
+  width:100%;
+  min-height: 600px;
+}
+
+.menu ul {
+  padding-left: 0px;
+  list-style: outside none none;
+  font-size: 18px;
+  height: 100px;
+  line-height: 100px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.name h1{
+  margin:0;
+  font-size:18px;
+  line-height:100px;
+  height:100px;
+  font-weight: 500;
+  padding-right: 0px;
+  float: right;
+}
+
+.btn {
+  background-color: rgba(0,0,0,0.9);
+  font-size: 18px;
+  margin: 40px 0;
+  font-weight: 100;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  width: 200px;
+  padding: 0px;
+  transition: background-color 0.5s ease 0s;
+}
